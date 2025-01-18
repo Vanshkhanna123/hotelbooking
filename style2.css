@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(241, 239, 239)
+
+}
+
+.left {
+    font-size: 1.5rem;
+    padding: 0.8rem;
+}
+.right {
+    display: flex;
+    /* justify-content: space-between; */
+    font-size: 1.1rem;
+    margin-top:0.8rem;
+    margin-right: 1.2rem;
+    
+}
+.right a {
+    font-size: 1.2rem;
+    color: black;
+    padding: 0.8rem;
+    
+}
+
+.right a{
+    text-decoration: none;
+    
+}
+
+.cont1  {
+    padding: 120px 0px 0px 170px;
+    line-height: 50px;
+}
+
+.cont1 h1 {
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.cont1 h3 {
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    
+}
+
+
+.select {
+    height: 50px;
+    width: 300px;
+}
+
+.select .option {
+    font-size: 4rem;
+}
+
+.cont2 h5 {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    padding: 13px 0px 0px 0px;
+}
+
+.cont2 {
+    display: flex;
+    gap: 70px;
+    padding: 50px 0px 0px 170px;
+}
+
+.hero {
+height: 405px;
+
+}
+
+.city {
+    height: 13rem;
+    width: 16rem;
+    border-radius: 0.9rem 0.9rem 0rem 0rem;
+}
+
+.main-img {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 60px;
+    padding-left: 160px;
+    position: relative;
+}
+
+.price {
+    margin-left: 7px;
+    margin-top: 15px;
+    display: flex;
+    gap: 100px;
+}
+
+.time {
+    margin-left: 7px;
+    margin-top: 10px;
+    display: flex;
+    gap: 120px;
+}
+
+.HillSide {
+    position: absolute;
+    top: 22px;
+    transform: translateX(90%);
+    
+    
+}
+
+.HillSide button {
+    height: 35px;
+    width: 140px;
+    font-size: 1.3rem;
+    color: white;
+    background-color: rgb(255, 123, 0);
+    border: none;
+    border-radius: 0.8rem 0rem 0rem 0.8rem;
+}
+
+
+footer {
+    height: 70px;
+}
+
+footer.footer-main {
+    background-color: rgb(242, 242, 242);
+}
+
+footer.footer-main h5 {
+    text-align: center;
+    font-size:1.1rem;
+    padding-top: 1.5rem;
+    color: rgb(212, 208, 208);
+    font-family: sans-serif;
+    font-weight: 400;
+    
+}
+
+
+
+
